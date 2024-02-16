@@ -86,7 +86,7 @@ print()
 
 
 
-
+'''
 
 print()
 print('*****  start section 5 - iterate through keys, values, items ********')
@@ -98,7 +98,7 @@ for key in phonebook:
 for value in phonebook.values():
     print(value)
 
-for key, value in phonebook.ietms():
+for key, value in phonebook.items():
     print(f"The key is {key} and the value is {value}")
 
 for item_tuple in phonebook.items():
@@ -108,7 +108,7 @@ print()
 print('*****  end section 5 ********')
 print()
 
-
+'''
 
 
 print()
